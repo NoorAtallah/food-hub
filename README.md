@@ -1,75 +1,54 @@
-# Dynamic Recipe Hub
+# Recipe Hub - Dynamic MERN Stack Application
 
-## Overview
+## Project Overview
 
-The **Dynamic Recipe Hub** is a fully responsive web application built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js). This platform allows users to create personalized digital cookbooks, explore and share new recipes, engage with a community of cooking enthusiasts, and purchase dishes directly from professional chefs. It caters to both culinary creators and enthusiasts by offering recipe management tools alongside a marketplace for dishes.
+Recipe Hub is a fully responsive web application developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It aims to create a platform where users can organize, manage, share, and purchase dishes from various chefs. The application combines recipe management with an e-commerce marketplace, catering to both culinary creators and enthusiasts.
 
-### Key Features
+## Features
 
-- **User Registration & Authentication**
-  - Secure registration and login system.
-  - Social login options via Google and Facebook.
-  - Chefs provide additional business details for order management.
+- User Registration and Authentication (including social login)
+- Recipe Creation and Management
+- Dish Marketplace
+- Personal Recipe Collections (Wishlists)
+- Recipe Rating and Review System
+- Advanced Search and Filtering
+- Order Management System
+- Admin Dashboard for Content Moderation
 
-- **Recipe Management**
-  - Chefs can create, edit, and delete detailed recipes.
-  - Advanced filtering and search functionality by ingredients, cuisine, dietary preferences, and cooking time.
+## Team Members
 
-- **Marketplace for Dishes**
-  - Chefs can list dishes for sale, including prices, photos, and available quantities.
-  - Users can browse, filter, and purchase dishes securely.
-  - Order management tools for both users and Chefs.
+- **Product Owner**: Sondos Saleh
+- **Scrum Master**: Abdalrahman Al Wabarneh
+- **Developers**:
+  - Hashem Frhat
+  - Noor Atallah
+  - Abd Almajeed Ajarmeh
+- **QA**: Ziad Fayomi
 
-- **Community Interaction**
-  - Users can save recipes to their wishlist, rate and review recipes and dishes, and report inappropriate content.
+## Getting Started
 
-- **Admin Dashboard**
-  - Tools for managing user accounts, recipes, dish listings, and reports.
-  - Order and review management functionalities.
+(Include instructions for setting up the development environment, installing dependencies, and running the application locally)
 
-### Pages
+## Project Structure
 
-- **Home Page**
-  - Introduction to the platform, featured recipes, popular dishes, and a search bar.
-
-- **Login/Register Page**
-  - Standard login/registration and social login options.
-
-- **User Profile Page**
-  - Displays user details, wishlist, order history, and reviews.
-
-- **Recipe Creation Page**
-  - Form for chefs to upload new recipes with all necessary fields.
-
-- **Recipe Detail Page**
-  - Displays a recipe’s details and allows users to interact with it.
-
-- **Marketplace Page**
-  - Lists all available dishes for sale, with advanced filters.
-
-- **Order Management Page**
-  - For users to manage their purchases and for chefs to manage their orders.
-
-- **Admin Dashboard**
-  - Tools for managing the platform, users, recipes, and reviews.
-
----
+(Outline the main directories and files in your project)
 
 ## Technologies Used
 
-- **Frontend**: React.js, Tailwind CSS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB Atlas
-- **Authentication**: JWT-based authentication, bcrypt for password hashing, OAuth for social login (Google, Facebook)
-- **Payment Integration**: Secure payment gateway for dish purchases (Stripe/PayPal)
-- **Version Control**: Git
+- MongoDB
+- Express.js
+- React.js
+- Node.js
+- (List any additional libraries or frameworks)
 
----
+## Contributing
 
-## Installation Instructions
+(Include guidelines for how team members can contribute to the project)
 
-1. **Clone the repository**:
+## License
 
-   ```bash
-   git clone https://github.com/your-repo/dynamic-recipe-hub.git
-   cd dynamic-recipe-hub
+(Specify the license under which this project is released)
+
+## Contact
+
+For any queries regarding this project, please contact the Scrum Master, Abdalrahman Al Wabarneh, at [insert contact information].
